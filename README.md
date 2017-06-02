@@ -1,4 +1,4 @@
-# Karlsruhe Architectural Maintainability Prediction
+# Karlsruhe Architectural Maintainability Prediction (KAMP)
 
 KAMP is an approach to analyze the change propagation in a software system from technical and organizational perspectives. It is based on the software architecture annotated with technical (e.g. deployment) and organizational artifacts (e.g. management).
 
