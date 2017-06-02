@@ -5,12 +5,12 @@ KAMP is an approach to analyze the change propagation in a software system from 
 ## Install 
 This repository represents only the Framework, if you want to use it for:
 	* Information Systems
-		- Checkout additionally: https://github.com/KAMP-Research/KAMP4IS
+		- Checkout additionally: https://github.com/KAMP-Research/KAMP4IS  
 	* Business Processes
-		- Checkout additionally: https://github.com/KAMP-Research/KAMP4IS
-		- Checkout additionally: https://github.com/KAMP-Research/KAMP4BP
+		- Checkout additionally: https://github.com/KAMP-Research/KAMP4IS  
+		- Checkout additionally: https://github.com/KAMP-Research/KAMP4BP  
 	* Requirements
-		- Checkout additionally: https://github.com/KAMP-Research/KAMP4IS
-		- Checkout additionally: https://github.com/KAMP-Research/KAMP4BP
-		- Checkout additionally: https://github.com/KAMP-Research/KAMP4REQ
-		- Checkout additionally: https://github.com/KAMP-Research/Toometa
+		- Checkout additionally: https://github.com/KAMP-Research/KAMP4IS  
+		- Checkout additionally: https://github.com/KAMP-Research/KAMP4BP  
+		- Checkout additionally: https://github.com/KAMP-Research/KAMP4REQ  
+		- Checkout additionally: https://github.com/KAMP-Research/Toometa  
