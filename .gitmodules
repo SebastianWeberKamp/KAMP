@@ -10,3 +10,6 @@
 [submodule "KAMP4APS"]
 	path = KAMP4APS
 	url = https://github.com/KAMP-Research/KAMP4APS
+[submodule "Toometa"]
+	path = Toometa
+	url = https://github.com/KAMP-Research/Toometa
