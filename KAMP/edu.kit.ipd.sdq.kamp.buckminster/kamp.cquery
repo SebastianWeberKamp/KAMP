@@ -3,5 +3,4 @@
     <cq:rootRequest name="edu.kit.ipd.sdq.kamp.buckminster" componentType="eclipse.feature"/>
     <cq:property key="pass" value="anonymous"/>
     <cq:property key="user" value="anonymous"/>
-    <cq:advisorNode namePattern="^edu\.kit\.ipd\.sdq\.kamp.*" useWorkspace="false"/>
 </cq:componentQuery>
