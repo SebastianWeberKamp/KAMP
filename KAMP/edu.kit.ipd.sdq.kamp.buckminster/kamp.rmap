@@ -30,9 +30,10 @@
     </rm:provider>
   </rm:searchPath>
     <rm:searchPath name="KAMP4IS">
-    <rm:provider componentTypes="osgi.bundle,buckminster,eclipse.feature" readerType="git">
+    <rm:provider componentTypes="osgi.bundle,buckminster,eclipse.feature" readerType="git" resolutionFilter="" source="true">
       <rm:property key="git.remote.uri" value="https://github.com/KAMP-Research/KAMP4IS"/>
       <rm:property key="git.remote.name" value="origin"/>
+      <rm:property key="git.auto.fetch" value="true"/>
       <rm:uri format="{0}/git/KAMP4IS,{1}">
         <bc:propertyRef key="workspace.root"/>
         <bc:propertyRef key="buckminster.component"/>
@@ -40,9 +41,10 @@
     </rm:provider>
   </rm:searchPath>
     <rm:searchPath name="KAMP4BP">
-    <rm:provider componentTypes="osgi.bundle,buckminster,eclipse.feature" readerType="git">
+    <rm:provider componentTypes="osgi.bundle,buckminster,eclipse.feature" readerType="git" resolutionFilter="" source="true">
       <rm:property key="git.remote.uri" value="https://github.com/KAMP-Research/KAMP4BP"/>
       <rm:property key="git.remote.name" value="origin"/>
+      <rm:property key="git.auto.fetch" value="true"/>
       <rm:uri format="{0}/git/KAMP4BP,{1}">
         <bc:propertyRef key="workspace.root"/>
         <bc:propertyRef key="buckminster.component"/>
@@ -50,9 +52,10 @@
     </rm:provider>
   </rm:searchPath>
     <rm:searchPath name="KAMP4REQ">
-    <rm:provider componentTypes="osgi.bundle,buckminster,eclipse.feature" readerType="git">
+    <rm:provider componentTypes="osgi.bundle,buckminster,eclipse.feature" readerType="git" resolutionFilter="" source="true">
       <rm:property key="git.remote.uri" value="https://github.com/KAMP-Research/KAMP4REQ"/>
       <rm:property key="git.remote.name" value="origin"/>
+      <rm:property key="git.auto.fetch" value="true"/>
       <rm:uri format="{0}/git/KAMP4REQ,{1}">
         <bc:propertyRef key="workspace.root"/>
         <bc:propertyRef key="buckminster.component"/>
@@ -60,9 +63,10 @@
     </rm:provider>
   </rm:searchPath>
     <rm:searchPath name="TOOMETA">
-    <rm:provider componentTypes="osgi.bundle,buckminster,eclipse.feature" readerType="git">
+    <rm:provider componentTypes="osgi.bundle,buckminster,eclipse.feature" readerType="git" resolutionFilter="" source="true">
       <rm:property key="git.remote.uri" value="https://github.com/KAMP-Research/Toometa"/>
       <rm:property key="git.remote.name" value="origin"/>
+      <rm:property key="git.auto.fetch" value="true"/>
       <rm:uri format="{0}/git/TOOMETA,{1}">
         <bc:propertyRef key="workspace.root"/>
         <bc:propertyRef key="buckminster.component"/>
