@@ -34,7 +34,7 @@
       <rm:property key="git.remote.uri" value="https://github.com/KAMP-Research/KAMP4IS"/>
       <rm:property key="git.remote.name" value="origin"/>
       <rm:property key="git.auto.fetch" value="true"/>
-      <rm:uri format="{0}/git/KAMP4IS,{1}">
+      <rm:uri format="{0}/git/KAMP,{1}">
         <bc:propertyRef key="workspace.root"/>
         <bc:propertyRef key="buckminster.component"/>
       </rm:uri>
@@ -45,7 +45,7 @@
       <rm:property key="git.remote.uri" value="https://github.com/KAMP-Research/KAMP4BP"/>
       <rm:property key="git.remote.name" value="origin"/>
       <rm:property key="git.auto.fetch" value="true"/>
-      <rm:uri format="{0}/git/KAMP4BP,{1}">
+      <rm:uri format="{0}/git/KAMP,{1}">
         <bc:propertyRef key="workspace.root"/>
         <bc:propertyRef key="buckminster.component"/>
       </rm:uri>
@@ -56,7 +56,7 @@
       <rm:property key="git.remote.uri" value="https://github.com/KAMP-Research/KAMP4REQ"/>
       <rm:property key="git.remote.name" value="origin"/>
       <rm:property key="git.auto.fetch" value="true"/>
-      <rm:uri format="{0}/git/KAMP4REQ,{1}">
+      <rm:uri format="{0}/git/KAMP,{1}">
         <bc:propertyRef key="workspace.root"/>
         <bc:propertyRef key="buckminster.component"/>
       </rm:uri>
@@ -67,7 +67,7 @@
       <rm:property key="git.remote.uri" value="https://github.com/KAMP-Research/Toometa"/>
       <rm:property key="git.remote.name" value="origin"/>
       <rm:property key="git.auto.fetch" value="true"/>
-      <rm:uri format="{0}/git/TOOMETA,{1}">
+      <rm:uri format="{0}/git/KAMP,{1}">
         <bc:propertyRef key="workspace.root"/>
         <bc:propertyRef key="buckminster.component"/>
       </rm:uri>
