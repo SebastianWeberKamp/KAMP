@@ -1,0 +1,38 @@
+pipeline {
+  agent any
+
+  stages {
+    stage('Setup') {
+      steps {
+        node('KAMP') {
+          dir('KAMP4APS'){
+            git url: 'https://github.com/KAMP-Research/KAMP4APS'
+          }
+          dir('KAMP4BP'){
+            git url: 'https://github.com/KAMP-Research/KAMP4BP'
+          }
+          dir('KAMP4IS'){
+            git url: 'https://github.com/KAMP-Research/KAMP4IS'
+          }
+          dir('KAMP4REQ'){
+            git url: 'https://github.com/KAMP-Research/KAMP4REQ'
+          }
+          dir('Toometa'){
+            git url: 'https://github.com/KAMP-Research/Toometa'
+          }
+        }
+      }
+    }
+
+    stage('Build') {
+      steps {
+        echo "Build..."
+      }
+    }
+
+    stage('Deploy'){
+      echo "Deploy..."
+    }
+  }
+
+}
