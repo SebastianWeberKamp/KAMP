@@ -22,7 +22,7 @@
   <rm:locator searchPathRef="emfcomparev122rc1"/>
   <rm:searchPath name="de.uka.ipd.sdq.pcm.componentinternaldependencies">
     <rm:provider componentTypes="osgi.bundle,buckminster,eclipse.feature" readerType="local">
-      <rm:uri format="{0}/gitinger/KAMP4IS/org.palladiosimulator.pcm.componentinternaldependencies">
+      <rm:uri format="{0}/KAMP4IS/org.palladiosimulator.pcm.componentinternaldependencies">
         <bc:propertyRef key="workspace.root"/>
         <bc:propertyRef key="buckminster.component"/>
       </rm:uri>
@@ -30,7 +30,7 @@
   </rm:searchPath>
   <rm:searchPath name="KAMP">
     <rm:provider componentTypes="osgi.bundle,buckminster,eclipse.feature" readerType="local">
-      <rm:uri format="{0}/gitinger/{1}">
+      <rm:uri format="{0}/KAMP/{1}">
         <bc:propertyRef key="workspace.root"/>
         <bc:propertyRef key="buckminster.component"/>
       </rm:uri>
@@ -38,7 +38,7 @@
   </rm:searchPath>
   <rm:searchPath name="KAMP4IS">
     <rm:provider componentTypes="osgi.bundle,buckminster,eclipse.feature" readerType="local">
-      <rm:uri format="{0}/gitinger/KAMP4IS/{1}">
+      <rm:uri format="{0}/KAMP4IS/{1}">
         <bc:propertyRef key="workspace.root"/>
         <bc:propertyRef key="buckminster.component"/>
       </rm:uri>
@@ -46,7 +46,7 @@
   </rm:searchPath>
   <rm:searchPath name="KAMP4BP">
     <rm:provider componentTypes="osgi.bundle,buckminster,eclipse.feature" readerType="local">
-      <rm:uri format="{0}/gitinger/KAMP4BP/{1}">
+      <rm:uri format="{0}/KAMP4BP/{1}">
         <bc:propertyRef key="workspace.root"/>
         <bc:propertyRef key="buckminster.component"/>
       </rm:uri>
@@ -54,7 +54,7 @@
   </rm:searchPath>
   <rm:searchPath name="KAMP4REQ">
     <rm:provider componentTypes="osgi.bundle,buckminster,eclipse.feature" readerType="local">
-      <rm:uri format="{0}/gitinger/KAMP4REQ/{1}">
+      <rm:uri format="{0}/KAMP4REQ/{1}">
         <bc:propertyRef key="workspace.root"/>
         <bc:propertyRef key="buckminster.component"/>
       </rm:uri>
@@ -62,7 +62,7 @@
   </rm:searchPath>
   <rm:searchPath name="TOOMETA">
     <rm:provider componentTypes="osgi.bundle,buckminster,eclipse.feature" readerType="local">
-      <rm:uri format="{0}/gitinger/Toometa/{1}">
+      <rm:uri format="{0}/Toometa/{1}">
         <bc:propertyRef key="workspace.root"/>
         <bc:propertyRef key="buckminster.component"/>
       </rm:uri>
