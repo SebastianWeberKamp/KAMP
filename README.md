@@ -10,9 +10,13 @@ KAMP is an approach to analyze the change propagation in a software system from 
 
 ## Submodules
 ### KAMP for Information Systems
+https://github.com/KAMP-Research/KAMP4IS  
 
 ### KAMP for Business Processes
+https://github.com/KAMP-Research/KAMP4BP  
 
 ### KAMP for Requirements
+https://github.com/KAMP-Research/KAMP4REQ  
 
 ### KAMP for automated Production Systems
+https://github.com/KAMP-Research/KAMP4APS  
