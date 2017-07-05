@@ -60,6 +60,14 @@
       </rm:uri>
     </rm:provider>
   </rm:searchPath>
+  <rm:searchPath name="KAMP4IEC">
+    <rm:provider componentTypes="osgi.bundle,buckminster,eclipse.feature" readerType="local">
+      <rm:uri format="{0}/KAMP4IEC/{1}">
+        <bc:propertyRef key="workspace.root"/>
+        <bc:propertyRef key="buckminster.component"/>
+      </rm:uri>
+    </rm:provider>
+  </rm:searchPath>
   <rm:searchPath name="TOOMETA">
     <rm:provider componentTypes="osgi.bundle,buckminster,eclipse.feature" readerType="local">
       <rm:uri format="{0}/Toometa/{1}">
