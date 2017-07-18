@@ -4,6 +4,8 @@
   <rm:locator searchPathRef="KAMP4BP" failOnError="false"/>
   <rm:locator searchPathRef="KAMP4IS" failOnError="false"/>
   <rm:locator searchPathRef="KAMP4REQ" failOnError="false"/> 
+  <rm:locator searchPathRef="KAMP4APS" failOnError="false"/> 
+  <rm:locator searchPathRef="KAMP4IEC" failOnError="false"/>
   <rm:locator searchPathRef="TOOMETA" failOnError="false"/>
   <rm:locator pattern="^de\.uka\.ipd\.sdq\.pcm\.componentinternaldependencies" searchPathRef="de.uka.ipd.sdq.pcm.componentinternaldependencies" failOnError="false"/>
   <rm:locator searchPathRef="PalladioNightly" failOnError="false"/>
@@ -63,6 +65,14 @@
   <rm:searchPath name="KAMP4IEC">
     <rm:provider componentTypes="osgi.bundle,buckminster,eclipse.feature" readerType="local">
       <rm:uri format="{0}/KAMP4IEC/{1}">
+        <bc:propertyRef key="workspace.root"/>
+        <bc:propertyRef key="buckminster.component"/>
+      </rm:uri>
+    </rm:provider>
+  </rm:searchPath>
+  <rm:searchPath name="KAMP4APS">
+    <rm:provider componentTypes="osgi.bundle,buckminster,eclipse.feature" readerType="local">
+      <rm:uri format="{0}/KAMP4APS/{1}">
         <bc:propertyRef key="workspace.root"/>
         <bc:propertyRef key="buckminster.component"/>
       </rm:uri>
