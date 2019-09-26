@@ -14,9 +14,9 @@
 	<modules>
 		<module>edu.kit.ipd.sdq.kamp.model.modificationmarks</module>
 		<module>edu.kit.ipd.sdq.kamp</module>
-		<module>Toometa</module>
+        <!-- <module>Toometa</module>-->
 		<module>edu.kit.ipd.sdq.kamp.model.modificationmarks.editor</module>
-		<module>edu.kit.ipd.sdq.kamp.updatesite</module>
+        <!-- <module>edu.kit.ipd.sdq.kamp.updatesite</module>-->
 		<module>edu.kit.ipd.sdq.kamp.model.modificationmarks.edit</module>
 	</modules>
 	
