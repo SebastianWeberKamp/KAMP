@@ -9,11 +9,11 @@ before_install:
     - git clone --depth 1 https://github.com/kit-sdq/BuildUtilities.git /tmp/BuildUtilities
     - . /tmp/BuildUtilities/travis-ci/setupenvironment.sh
     - git clone https://github.com/SebastianWeberKamp/KAMP4APS.git /bundles/KAMP4APS
-	- git clone https://github.com/SebastianWeberKamp/KAMP4BP.git /bundles/KAMP4BP
-	- git clone https://github.com/SebastianWeberKamp/KAMP4HMI.git /bundles/KAMP4HMI
-	- git clone https://github.com/SebastianWeberKamp/KAMP4IEC.git /bundles/KAMP4IEC
-	- git clone https://github.com/SebastianWeberKamp/KAMP4IS.git /bundles/KAMP4IS
-		
+    - git clone https://github.com/SebastianWeberKamp/KAMP4BP.git /bundles/KAMP4BP
+    - git clone https://github.com/SebastianWeberKamp/KAMP4HMI.git /bundles/KAMP4HMI
+    - git clone https://github.com/SebastianWeberKamp/KAMP4IEC.git /bundles/KAMP4IEC
+    - git clone https://github.com/SebastianWeberKamp/KAMP4IS.git /bundles/KAMP4IS
+
 install: true
 
 script: mvn clean verify
