@@ -17,7 +17,7 @@
       [Enter License Description here.]
    </license>
 
-   <requires>
+<!--    <requires>
       <import plugin="org.eclipse.core.runtime"/>
       <import plugin="org.eclipse.emf.ecore"/>
       <import plugin="org.eclipse.emf.ecore.xmi"/>
@@ -60,387 +60,38 @@
       <import plugin="edu.kit.ipd.sdq.kamp4bp.model.fieldofactivityannotations" version="1.0.0" match="greaterOrEqual"/>
       <import plugin="edu.kit.ipd.sdq.kamp" version="1.0.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.emf.ecore.edit"/>
-      <import plugin="toometa.qualities" version="0.1.0" match="greaterOrEqual"/>
-   </requires>
+   </requires> -->
 
    <plugin
-         id="de.uhd.ifi.se.pcm.bppcm"
+         id="edu.kit.ipd.sdq.kamp4iec.model.editor"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="de.uhd.ifi.se.pcm.bppcm.edit"
+         id="edu.kit.ipd.sdq.kamp4iec.model.repo.edit"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+<!--    <plugin
+         id="edu.kit.ipd.sdq.kamp4iec.model.modificationmarks.tests"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/> -->
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4aps.model.fieldofactivityannotations.edit"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="de.uhd.ifi.se.pcm.bppcm.editor"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uhd.ifi.se.pcm.bppcm.tests"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uhd.ifi.se.pcm.bppcm.ui"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.dsexplore.qml.contract"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.dsexplore.qml.contract.edit"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.dsexplore.qml.contract.editor"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.dsexplore.qml.contract.tests"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.dsexplore.qml.contracttype"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.dsexplore.qml.contracttype.edit"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.dsexplore.qml.contracttype.editor"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.dsexplore.qml.contracttype.tests"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.dsexplore.qml.declarations"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.dsexplore.qml.declarations.edit"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.dsexplore.qml.declarations.editor"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.dsexplore.qml.declarations.tests"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.dsexplore.qml.dimensions"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.dsexplore.qml.dimensions.edit"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.dsexplore.qml.dimensions.editor"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.dsexplore.qml.dimensions.tests"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.dsexplore.qml.dimensiontypes"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.dsexplore.qml.dimensiontypes.edit"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.dsexplore.qml.dimensiontypes.editor"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.dsexplore.qml.dimensiontypes.tests"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.dsexplore.qml.handling"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.dsexplore.qml.profile"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.dsexplore.qml.profile.edit"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.dsexplore.qml.profile.editor"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.dsexplore.qml.profile.tests"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.dsexplore.qml.units"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.dsexplore.qml.units.edit"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.dsexplore.qml.units.editor"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.dsexplore.qml.units.tests"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.namedelement"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.namedelement.edit"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.namedelement.editor"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.namedelement.tests"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.pcm.componentinternaldependencies"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.pcm.componentinternaldependencies.edit"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.pcm.componentinternaldependencies.editor"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.uka.ipd.sdq.pcm.componentinternaldependencies.tests"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="edu.kit.ipd.sdq.kamp"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="edu.kit.ipd.sdq.kamp.buckminster"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"/>
-
-   <plugin
-         id="edu.kit.ipd.sdq.kamp.model.modificationmarks"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="edu.kit.ipd.sdq.kamp.model.modificationmarks.edit"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="edu.kit.ipd.sdq.kamp.model.modificationmarks.editor"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="edu.kit.ipd.sdq.kamp.model.modificationmarks.tests"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="edu.kit.ipd.sdq.kamp.updatesite"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"/>
-
-   <plugin
-         id="edu.kit.ipd.sdq.kamp4bp"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="edu.kit.ipd.sdq.kamp4bp.model.fieldofactivityannotations"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="edu.kit.ipd.sdq.kamp4bp.model.fieldofactivityannotations.edit"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="edu.kit.ipd.sdq.kamp4bp.model.fieldofactivityannotations.editor"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="edu.kit.ipd.sdq.kamp4bp.model.fieldofactivityannotations.tests"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="edu.kit.ipd.sdq.kamp4bp.model.modificationmarks"
+         id="edu.kit.ipd.sdq.kamp4iec.model.fieldofactivityannotations"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -454,28 +105,7 @@
          unpack="false"/>
 
    <plugin
-         id="edu.kit.ipd.sdq.kamp4bp.model.modificationmarks.editor"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="edu.kit.ipd.sdq.kamp4bp.model.modificationmarks.tests"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="edu.kit.ipd.sdq.kamp4is"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="edu.kit.ipd.sdq.kamp4is.model.fieldofactivityannotations"
+         id="edu.kit.ipd.sdq.kamp4aps.aps"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -489,6 +119,140 @@
          unpack="false"/>
 
    <plugin
+         id="edu.kit.ipd.sdq.kamp.model.modificationmarks.edit"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+<!--    <plugin
+         id="edu.kit.ipd.sdq.kamp4bp.model.modificationmarks.tests"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/> -->
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4bp.model.fieldofactivityannotations.editor"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4hmi.model.modificationmarks.editor"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp.model.modificationmarks"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4is.model.fieldofactivityannotations"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4hmi.model.modificationmarks.edit"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4aps.model.modificationmarks"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp.model.modificationmarks.editor"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4iec"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4bp.model.fieldofactivityannotations"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+<!--    <plugin
+         id="edu.kit.ipd.sdq.kamp4hmi.model.modificationmarks.tests"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/> -->
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4aps.model.modificationmarks.edit"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="de.uhd.ifi.se.pcm.bppcm"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="de.uka.ipd.sdq.pcm.componentinternaldependencies.editor"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+<!--    <plugin
+         id="edu.kit.ipd.sdq.kamp.tests"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/> -->
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4hmi.model.modificationmarks"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4aps.model.modificationmarks.editor"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4aps"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
          id="edu.kit.ipd.sdq.kamp4is.model.fieldofactivityannotations.editor"
          download-size="0"
          install-size="0"
@@ -496,7 +260,336 @@
          unpack="false"/>
 
    <plugin
+         id="edu.kit.ipd.sdq.kamp4is"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+<!--    <plugin
+         id="edu.kit.ipd.sdq.kamp4iec.model.tests"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/> -->
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4hmi.model.edit"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4aps.model.fieldofactivityannotations"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4aps.model.deploymentcontext.edit"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+<!--    <plugin
+         id="de.uhd.ifi.se.pcm.bppcm.tests"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/> -->
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4aps.model.deploymentcontext"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4iec.model.modificationmarks"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4bp.model.modificationmarks.editor"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="de.uhd.ifi.se.pcm.bppcm.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4bp"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+<!--    <plugin
+         id="edu.kit.ipd.sdq.kamp4hmi.model.tests"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/> -->
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4iec.model.fieldofactivityannotations.editor"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+<!--    <plugin
+         id="edu.kit.ipd.sdq.kamp4aps.aps.tests"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/> -->
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4is.model.modificationmarks.edit"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4hmi.model.editor"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4aps.basic"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+<!--    <plugin
          id="edu.kit.ipd.sdq.kamp4is.model.fieldofactivityannotations.tests"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/> -->
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4bp.model.modificationmarks"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="de.uka.ipd.sdq.pcm.componentinternaldependencies"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4iec.model.repo.editor"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="de.uhd.ifi.se.pcm.bppcm.editor"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="de.uhd.ifi.se.pcm.bppcm.edit"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4aps.model.deploymentcontext.editor"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4bp.model.fieldofactivityannotations.edit"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4aps.basic.editor"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+<!--    <plugin
+         id="edu.kit.ipd.sdq.kamp4aps.basic.tests"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/> -->
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4is.model.modificationmarks.editor"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+<!--    <plugin
+         id="edu.kit.ipd.sdq.kamp4aps.model.modificationmarks.tests"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/> -->
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4aps.aps.editor"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4iec.model.modificationmarks.editor"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+<!--    <plugin
+         id="edu.kit.ipd.sdq.kamp4iec.model.fieldofactivityannotations.tests"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/> -->
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4iec.model.modificationmarks.edit"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+<!--    <plugin
+         id="edu.kit.ipd.sdq.kamp4aps.model.deploymentcontext.tests"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/> -->
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4hmi.model"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+<!--    <plugin
+         id="edu.kit.ipd.sdq.kamp.model.modificationmarks.tests"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/> -->
+
+   <plugin
+         id="de.uka.ipd.sdq.pcm.componentinternaldependencies.edit"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+<!--    <plugin
+         id="edu.kit.ipd.sdq.kamp4bp.model.fieldofactivityannotations.tests"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/> -->
+
+<!--    <plugin
+         id="edu.kit.ipd.sdq.kamp4aps.model.fieldofactivityannotations.tests"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/> -->
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4aps.aps.edit"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4iec.model.repo"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4aps.basic.edit"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+<!--    <plugin
+         id="de.uka.ipd.sdq.pcm.componentinternaldependencies.tests"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/> -->
+
+<!--    <plugin
+         id="edu.kit.ipd.sdq.kamp4is.model.modificationmarks.tests"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/> -->
+
+<!--    <plugin
+         id="edu.kit.ipd.sdq.kamp4iec.model.repo.tests"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/> -->
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4iec.model.fieldofactivityannotations.edit"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="edu.kit.ipd.sdq.kamp4iec.model.edit"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -510,347 +603,17 @@
          unpack="false"/>
 
    <plugin
-         id="edu.kit.ipd.sdq.kamp4is.model.modificationmarks.edit"
+         id="edu.kit.ipd.sdq.kamp4iec.model"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="edu.kit.ipd.sdq.kamp4is.model.modificationmarks.editor"
+         id="edu.kit.ipd.sdq.kamp4aps.model.fieldofactivityannotations.editor"
          download-size="0"
          install-size="0"
          version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="edu.kit.ipd.sdq.kamp4is.model.modificationmarks.tests"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="edu.kit.ipd.sdq.kamp4req"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="edu.kit.ipd.sdq.kamp4req.model.modificationmarks"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="edu.kit.ipd.sdq.kamp4req.model.modificationmarks.edit"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="edu.kit.ipd.sdq.kamp4req.model.modificationmarks.editor"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="edu.kit.ipd.sdq.kamp4req.model.modificationmarks.tests"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.archoptions"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.archoptions.edit"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.archoptions.editor"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.archoptions.tests"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.decisions"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.decisions.edit"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.decisions.editor"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.decisions.tests"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.effects"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.effects.edit"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.effects.editor"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.effects.tests"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.glossary"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.glossary.edit"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.glossary.editor"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.glossary.tests"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.options"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.options.edit"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.options.editor"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.options.tests"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.pcmarchoptions"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.pcmarchoptions.edit"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.pcmarchoptions.editor"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.pcmarchoptions.tests"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.pcmbpoptions"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.pcmbpoptions.edit"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.pcmbpoptions.editor"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.pcmbpoptions.tests"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.qualities"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.qualities.edit"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.qualities.editor"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.qualities.tests"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.relations"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.relations.edit"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.relations.editor"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.relations.tests"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.requirements"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.requirements.edit"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.requirements.editor"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="toometa.requirements.tests"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="edu.kit.ipd.sdq.kamp.tests"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"
          unpack="false"/>
 
 </feature>

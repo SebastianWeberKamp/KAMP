@@ -14,11 +14,11 @@
 	<modules>
 		<module>edu.kit.ipd.sdq.kamp.model.modificationmarks</module>
 		<module>edu.kit.ipd.sdq.kamp</module>
-        <!-- <module>KAMP4IS</module>
-        <module>KAMP4BP</module>
+		<module>KAMP4HMI</module>
+		<module>KAMP4BP</module>
+        <module>KAMP4IS</module>
         <module>KAMP4APS</module>
-        <module>KAMP4IEC</module>-->
-        <!-- <module>Toometa</module>-->
+        <module>KAMP4IEC</module>
 		<module>edu.kit.ipd.sdq.kamp.model.modificationmarks.editor</module>
         <!-- <module>edu.kit.ipd.sdq.kamp.updatesite</module>-->
 		<module>edu.kit.ipd.sdq.kamp.model.modificationmarks.edit</module>

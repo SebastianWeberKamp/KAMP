@@ -12,8 +12,8 @@
 	<packaging>pom</packaging>
 	
 	<modules>
-		<module>edu.kit.ipd.sdq.kamp.model.modificationmarks.tests</module>
-		<module>edu.kit.ipd.sdq.kamp.tests</module>
+		<!--<module>edu.kit.ipd.sdq.kamp.model.modificationmarks.tests</module>
+		<module>edu.kit.ipd.sdq.kamp.tests</module>-->
 	</modules>
 	
 </project>
