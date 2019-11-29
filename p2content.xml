@@ -511,16 +511,16 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='201911291012.kamp_category' version='1.0.0.2--cJDHfl7735K557K5357'>
+  <unit id='201911291039.kamp_category' version='1.0.0.2--cJDHfl7735K557K539K'>
     <properties size='2'>
       <property name='org.eclipse.equinox.p2.name' value='KAMP Addon'/>
       <property name='org.eclipse.equinox.p2.type.category' value='true'/>
     </properties>
     <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='201911291012.kamp_category' version='1.0.0.2--cJDHfl7735K557K5357'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='201911291039.kamp_category' version='1.0.0.2--cJDHfl7735K557K539K'/>
     </provides>
     <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='edu.kit.ipd.sdq.kamp.feature.feature.group' range='[1.0.0.201911291012,1.0.0.201911291012]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='edu.kit.ipd.sdq.kamp.feature.feature.group' range='[1.0.0.201911291039,1.0.0.201911291039]'/>
     </requires>
     <touchpoint id='null' version='0.0.0'/>
   </unit>
