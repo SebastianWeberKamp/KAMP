@@ -17,8 +17,9 @@ before_install:
 install: true
 
 deploy:
-  provider: pages:git
+  provider: https://github.com/SebastianWeberKamp/SebastianWeberKamp.github.io
   token: $GITHUB_GithubPrivateAccessToken
   edge: true
+  local_dir: /home/travis/build/SebastianWeberKamp/KAMP/releng/edu.kit.ipd.sdq.kamp.updatesite
 
-script: mvn clean verify
+script: mvn verify
