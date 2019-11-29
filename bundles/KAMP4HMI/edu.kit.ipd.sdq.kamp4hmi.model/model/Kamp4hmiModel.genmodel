@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/edu.kit.ipd.sdq.kamp4hmi.model/src" modelPluginID="edu.kit.ipd.sdq.kamp4hmi.model"
+    modelName="Kamp4hmiModel" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0" copyrightFields="false"
+    usedGenPackages="../../edu.kit.ipd.sdq.kamp4iec.model.repo/model/IECRepository.genmodel#//IECRepository"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>Kamp4hmiModel.ecore</foreignModel>
+  <genPackages prefix="Kamp4hmiModel" basePackage="edu.kit.ipd.sdq.kamp4hmi.model"
+      disposableProviderFactory="true" ecorePackage="Kamp4hmiModel.ecore#/">
+    <genClasses image="false" ecoreClass="Kamp4hmiModel.ecore#//Step">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Kamp4hmiModel.ecore#//Step/successor"/>
+    </genClasses>
+    <genClasses ecoreClass="Kamp4hmiModel.ecore#//ActorStep"/>
+    <genClasses ecoreClass="Kamp4hmiModel.ecore#//SystemStep">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Kamp4hmiModel.ecore#//SystemStep/mode"/>
+    </genClasses>
+    <genClasses ecoreClass="Kamp4hmiModel.ecore#//Mode">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Kamp4hmiModel.ecore#//Mode/affectedFunctionBlocks"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Kamp4hmiModel.ecore#//Mode/affectedMethods"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Kamp4hmiModel.ecore#//Mode/Name"/>
+    </genClasses>
+    <genClasses ecoreClass="Kamp4hmiModel.ecore#//Repository">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Kamp4hmiModel.ecore#//Repository/startingStep"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Kamp4hmiModel.ecore#//Repository/hmiElement"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Kamp4hmiModel.ecore#//Repository/modes"/>
+    </genClasses>
+    <genClasses ecoreClass="Kamp4hmiModel.ecore#//If">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Kamp4hmiModel.ecore#//If/Condition"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Kamp4hmiModel.ecore#//If/trueSuccessor"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Kamp4hmiModel.ecore#//If/falseSuccessor"/>
+    </genClasses>
+    <genClasses ecoreClass="Kamp4hmiModel.ecore#//For">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Kamp4hmiModel.ecore#//For/Condition"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Kamp4hmiModel.ecore#//For/loopSuccessor"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Kamp4hmiModel.ecore#//For/loopEndSuccessor"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="Kamp4hmiModel.ecore#//HMIElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Kamp4hmiModel.ecore#//HMIElement/Name"/>
+    </genClasses>
+    <genClasses ecoreClass="Kamp4hmiModel.ecore#//Condition">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Kamp4hmiModel.ecore#//Condition/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Kamp4hmiModel.ecore#//Condition/condition"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

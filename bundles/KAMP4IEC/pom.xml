@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+		
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>edu.kit.ipd.sdq.kamp</groupId>
+		<artifactId>bundles</artifactId>
+		<version>0.1.0-SNAPSHOT</version>
+	</parent>
+	<artifactId>bundleskamp4iec</artifactId>
+	<packaging>pom</packaging>
+	
+	<modules>
+		<module>edu.kit.ipd.sdq.kamp4iec</module>
+		<module>edu.kit.ipd.sdq.kamp4iec.model</module>
+		<module>edu.kit.ipd.sdq.kamp4iec.model.edit</module>
+		<module>edu.kit.ipd.sdq.kamp4iec.model.editor</module>
+		<module>edu.kit.ipd.sdq.kamp4iec.model.fieldofactivityannotations</module>
+		<module>edu.kit.ipd.sdq.kamp4iec.model.fieldofactivityannotations.edit</module>
+		<module>edu.kit.ipd.sdq.kamp4iec.model.fieldofactivityannotations.editor</module>
+		<!--<module>edu.kit.ipd.sdq.kamp4iec.model.fieldofactivityannotations.tests</module>-->
+		<module>edu.kit.ipd.sdq.kamp4iec.model.modificationmarks</module>
+		<module>edu.kit.ipd.sdq.kamp4iec.model.modificationmarks.edit</module>
+		<module>edu.kit.ipd.sdq.kamp4iec.model.modificationmarks.editor</module>
+		<!--<module>edu.kit.ipd.sdq.kamp4iec.model.modificationmarks.tests</module>-->
+		<module>edu.kit.ipd.sdq.kamp4iec.model.repo</module>
+		<module>edu.kit.ipd.sdq.kamp4iec.model.repo.edit</module>
+		<module>edu.kit.ipd.sdq.kamp4iec.model.repo.editor</module>
+		<!--<module>edu.kit.ipd.sdq.kamp4iec.model.repo.tests</module>-->
+		<!--<module>edu.kit.ipd.sdq.kamp4iec.model.tests</module>-->
+	</modules>
+	
+</project>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated Kamp4hmiModel -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="edu.kit.ipd.sdq.kamp4hmi.model.Kamp4hmiModel.presentation.Kamp4hmiModelModelWizardID"
+            name="%_UI_Kamp4hmiModelModelWizard_label"
+            class="edu.kit.ipd.sdq.kamp4hmi.model.Kamp4hmiModel.presentation.Kamp4hmiModelModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/Kamp4hmiModelModelFile.gif">
+         <description>%_UI_Kamp4hmiModelModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated Kamp4hmiModel -->
+      <editor
+            id="edu.kit.ipd.sdq.kamp4hmi.model.Kamp4hmiModel.presentation.Kamp4hmiModelEditorID"
+            name="%_UI_Kamp4hmiModelEditor_label"
+            icon="icons/full/obj16/Kamp4hmiModelModelFile.gif"
+            extensions="kamp4hmimodel"
+            class="edu.kit.ipd.sdq.kamp4hmi.model.Kamp4hmiModel.presentation.Kamp4hmiModelEditor"
+            contributorClass="edu.kit.ipd.sdq.kamp4hmi.model.Kamp4hmiModel.presentation.Kamp4hmiModelActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

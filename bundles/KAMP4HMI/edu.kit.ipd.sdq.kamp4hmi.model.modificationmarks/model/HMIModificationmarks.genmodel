@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/edu.kit.ipd.sdq.kamp4hmi.model.modificationmarks/src"
+    modelPluginID="edu.kit.ipd.sdq.kamp4hmi.model.modificationmarks" modelName="HMIModificationmarks"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" importerID="org.eclipse.emf.importer.ecore"
+    complianceLevel="8.0" copyrightFields="false" usedGenPackages="../../edu.kit.ipd.sdq.kamp4iec.model.repo/model/IECRepository.genmodel#//IECRepository ../../edu.kit.ipd.sdq.kamp4hmi.model/model/Kamp4hmiModel.genmodel#//Kamp4hmiModel ../../edu.kit.ipd.sdq.kamp.model.modificationmarks/model/Modificationmarks.genmodel#//modificationmarks"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>HMIModificationmarks.ecore</foreignModel>
+  <genPackages prefix="HMIModificationmarks" basePackage="edu.kit.ipd.sdq.kamp4hmi.model"
+      disposableProviderFactory="true" ecorePackage="HMIModificationmarks.ecore#/">
+    <genClasses image="false" ecoreClass="HMIModificationmarks.ecore#//AbstractKAMP4HMIModificationRepository">
+      <genTypeParameters ecoreTypeParameter="HMIModificationmarks.ecore#//AbstractKAMP4HMIModificationRepository/T"/>
+    </genClasses>
+    <genClasses ecoreClass="HMIModificationmarks.ecore#//HMISeedModifications"/>
+    <genClasses ecoreClass="HMIModificationmarks.ecore#//HMIModificationRepository"/>
+    <genClasses ecoreClass="HMIModificationmarks.ecore#//HMIChangePropagationDueToSoftwareDependency"/>
+    <genClasses ecoreClass="HMIModificationmarks.ecore#//HMIModifyActorStep">
+      <genTypeParameters ecoreTypeParameter="HMIModificationmarks.ecore#//HMIModifyActorStep/T"/>
+    </genClasses>
+    <genClasses ecoreClass="HMIModificationmarks.ecore#//HMIModifySystemStep">
+      <genTypeParameters ecoreTypeParameter="HMIModificationmarks.ecore#//HMIModifySystemStep/T"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

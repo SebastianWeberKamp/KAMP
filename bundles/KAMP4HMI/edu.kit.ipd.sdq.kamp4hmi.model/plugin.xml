@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated kamp4hmi -->
+      <package
+            uri="http://www.example.org/kamp4hmi"
+            class="edu.kit.ipd.sdq.kamp4hmi.model.kamp4hmi.kamp4hmiPackage"
+            genModel="model/kamp4hmi.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated Kamp4hmiModel -->
+      <package
+            uri="http://sdq.ipd.kit.edu/Kamp4hmiModel"
+            class="edu.kit.ipd.sdq.kamp4hmi.model.Kamp4hmiModel.Kamp4hmiModelPackage"
+            genModel="model/Kamp4hmiModel.genmodel"/>
+   </extension>
+
+</plugin>

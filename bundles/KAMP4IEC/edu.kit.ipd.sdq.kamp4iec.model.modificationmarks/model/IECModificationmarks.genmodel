@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/edu.kit.ipd.sdq.kamp4iec.model.modificationmarks/src"
+    modelPluginID="edu.kit.ipd.sdq.kamp4iec.model.modificationmarks" modelName="IECModificationmarks"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" importerID="org.eclipse.emf.importer.ecore"
+    complianceLevel="8.0" copyrightFields="false" usedGenPackages="../../edu.kit.ipd.sdq.kamp4iec.model/model/IECModel.genmodel#//IECModel ../../edu.kit.ipd.sdq.kamp4iec.model.repo/model/IECRepository.genmodel#//IECRepository ../../edu.kit.ipd.sdq.kamp.model.modificationmarks/model/Modificationmarks.genmodel#//modificationmarks"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>IECModificationmarks.ecore</foreignModel>
+  <genPackages prefix="IECModificationmarks" basePackage="edu.kit.ipd.sdq.kamp4iec.model"
+      disposableProviderFactory="true" ecorePackage="IECModificationmarks.ecore#/">
+    <genClasses image="false" ecoreClass="IECModificationmarks.ecore#//AbstractKAMP4IECModificationRepository">
+      <genTypeParameters ecoreTypeParameter="IECModificationmarks.ecore#//AbstractKAMP4IECModificationRepository/T"/>
+    </genClasses>
+    <genClasses ecoreClass="IECModificationmarks.ecore#//IECModificationRepository"/>
+    <genClasses ecoreClass="IECModificationmarks.ecore#//IECSeedModifications">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference IECModificationmarks.ecore#//IECSeedModifications/globalVariableModifications"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference IECModificationmarks.ecore#//IECSeedModifications/interfaceModifications"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference IECModificationmarks.ecore#//IECSeedModifications/abstractMethodModifications"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference IECModificationmarks.ecore#//IECSeedModifications/abstractPropertyModifications"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference IECModificationmarks.ecore#//IECSeedModifications/functionBlockModifications"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference IECModificationmarks.ecore#//IECSeedModifications/methodModifications"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference IECModificationmarks.ecore#//IECSeedModifications/propertyModifications"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference IECModificationmarks.ecore#//IECSeedModifications/functionModifications"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference IECModificationmarks.ecore#//IECSeedModifications/programModifications"/>
+    </genClasses>
+    <genClasses ecoreClass="IECModificationmarks.ecore#//IECChangePropagationDueToDataDependency">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference IECModificationmarks.ecore#//IECChangePropagationDueToDataDependency/functionBlockModifications"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference IECModificationmarks.ecore#//IECChangePropagationDueToDataDependency/globalVariableModifications"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference IECModificationmarks.ecore#//IECChangePropagationDueToDataDependency/functionModifications"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference IECModificationmarks.ecore#//IECChangePropagationDueToDataDependency/interfaceModifications"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference IECModificationmarks.ecore#//IECChangePropagationDueToDataDependency/abstractMethodModifications"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference IECModificationmarks.ecore#//IECChangePropagationDueToDataDependency/abstractPropertyModifications"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference IECModificationmarks.ecore#//IECChangePropagationDueToDataDependency/programModifications"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference IECModificationmarks.ecore#//IECChangePropagationDueToDataDependency/configurationModifications"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference IECModificationmarks.ecore#//IECChangePropagationDueToDataDependency/methodModifications"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference IECModificationmarks.ecore#//IECChangePropagationDueToDataDependency/propertyModifications"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IECModificationmarks.ecore#//IECChangePropagationDueToDataDependency/changed"/>
+    </genClasses>
+    <genClasses ecoreClass="IECModificationmarks.ecore#//IECModifyComponent">
+      <genTypeParameters ecoreTypeParameter="IECModificationmarks.ecore#//IECModifyComponent/T"/>
+    </genClasses>
+    <genClasses ecoreClass="IECModificationmarks.ecore#//IECModifyGlobalVariable"/>
+    <genClasses ecoreClass="IECModificationmarks.ecore#//IECModifyFunctionBlock"/>
+    <genClasses ecoreClass="IECModificationmarks.ecore#//IECModifyFunction"/>
+    <genClasses ecoreClass="IECModificationmarks.ecore#//IECModifyInterface"/>
+    <genClasses ecoreClass="IECModificationmarks.ecore#//IECModifyMethod"/>
+    <genClasses ecoreClass="IECModificationmarks.ecore#//IECModifyAbstractMethod"/>
+    <genClasses ecoreClass="IECModificationmarks.ecore#//IECModifyProperty"/>
+    <genClasses ecoreClass="IECModificationmarks.ecore#//IECModifyAbstractProperty"/>
+    <genClasses ecoreClass="IECModificationmarks.ecore#//IECModifyProgram"/>
+    <genClasses ecoreClass="IECModificationmarks.ecore#//IECModifyConfiguration"/>
+  </genPackages>
+</genmodel:GenModel>
