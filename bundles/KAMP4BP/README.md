@@ -1,1 +1,0 @@
-# KAMP for Business Processes
