@@ -16,4 +16,9 @@ before_install:
 
 install: true
 
+deploy:
+  provider: pages:git
+  token: $GITHUB_GithubPrivateAccessToken
+  edge: true
+
 script: mvn clean verify
