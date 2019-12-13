@@ -20,7 +20,6 @@
         <module>KAMP4APS</module>
         <module>KAMP4IEC</module>
 		<module>edu.kit.ipd.sdq.kamp.model.modificationmarks.editor</module>
-        <!-- <module>edu.kit.ipd.sdq.kamp.updatesite</module>-->
 		<module>edu.kit.ipd.sdq.kamp.model.modificationmarks.edit</module>
 	</modules>
 	

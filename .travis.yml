@@ -21,6 +21,6 @@ deploy:
   token: $GITHUB_GithubPrivateAccessToken
   edge: true
   verbose: true
-  local_dir: /home/travis/build/SebastianWeberKamp/KAMP/releng/edu.kit.ipd.sdq.kamp.updatesite/target
+  local_dir: /home/travis/build/SebastianWeberKamp/KAMP/releng/edu.kit.ipd.sdq.kamp.updatesite/target/repository
 
 script: mvn clean verify

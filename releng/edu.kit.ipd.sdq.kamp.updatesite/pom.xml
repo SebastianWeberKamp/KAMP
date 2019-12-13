@@ -9,6 +9,7 @@
 	</parent>
 
 	<artifactId>edu.kit.ipd.sdq.kamp.updatesite</artifactId>
+	<name>KAMP Update Site</name>
 	<packaging>eclipse-repository</packaging>
 
 </project>
