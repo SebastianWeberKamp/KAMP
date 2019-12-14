@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
    <feature url="features/edu.kit.ipd.sdq.kamp.feature_1.0.0.qualifier.jar" id="edu.kit.ipd.sdq.kamp.feature" version="1.0.0.qualifier">
-      <category name="KAMPCORE"/>
+      <category name="KAMP"/>
    </feature>
-   <category-def name="KAMPCORE" label="KAMPCORE">
+   <category-def name="KAMP" label="KAMP">
 	  <description>
         Karlsruhe Architectural Maintainability Prediction (KAMP)
       </description>
