@@ -20,4 +20,4 @@ deploy:
   verbose: true
   local_dir: /home/travis/build/SebastianWeberKamp/KAMP/releng/edu.kit.ipd.sdq.kamp.updatesite/target/repository
 
-script: mvn clean verify
+script: mvn clean verify -Dmaven.test.skip=true
