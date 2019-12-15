@@ -1,1 +1,0 @@
-mvn -X clean verify > Output.txt

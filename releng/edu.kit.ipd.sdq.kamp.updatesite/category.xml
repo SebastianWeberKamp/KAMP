@@ -7,30 +7,30 @@
 	  <description>
         Karlsruhe Architectural Maintainability Prediction (KAMP)
       </description>
-   <category-def>
+   </category-def>
    <category-def name="KAMP4IS" label="KAMP4IS">
 	  <description>
         KAMP for Information Systems
       </description>
-   <category-def>
+   </category-def>
    <category-def name="KAMP4BP" label="KAMP4BP">
 	  <description>
         KAMP for Business Processes
       </description>
-   <category-def>
+   </category-def>
    <category-def name="KAMP4REQ" label="KAMP4REQ">
 	  <description>
         KAMP for Requirements
       </description>
-   <category-def>
+   </category-def>
    <category-def name="KAMP4APS" label="KAMP4APS">
 	  <description>
         KAMP for automated Production Systems
       </description>
-   <category-def>
+   </category-def>
    <category-def name="KAMP4HMI" label="KAMP4HMI">
 	  <description>
         KAMP4HMI
       </description>
-   <category-def>
+   </category-def>
 </site>
