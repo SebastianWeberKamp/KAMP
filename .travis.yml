@@ -13,8 +13,9 @@ before_install:
     - git clone https://SebastianWeberKamp:$GITHUB_Password@github.com/SebastianWeberKamp/KAMPLocalBuildAutoSavedFromTravis /tmp/LocalBuild
     - cp -r /home/travis/build/SebastianWeberKamp/KAMP /tmp/LocalBuild
     - cd /tmp/LocalBuild
+    - rm -rf .git
     - git add -A
-    - git commit
+    - git commit -m "Update KAMPLocalBuildAutoSavedFromTravis"
     - git push origin
     - cd /home/travis/build/SebastianWeberKamp/KAMP
 
